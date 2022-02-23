@@ -1,0 +1,17 @@
+.coffee-icon {
+    width: 16px;
+    height: 16px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: normal;
+}
