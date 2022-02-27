@@ -9,7 +9,9 @@
     --heading-font: 'Comfortaa', cursive;
     --sub-heading-font: 'Ubuntu Condensed', sans-serif;
     --button-color: black;
+    --button-learn-more-color: #645349;
     --button-hover-color: rgb(75, 47, 11);
+    --button-learn-more-hover-color: rgba(255, 255, 255, 0.836);
 }
 
 body {
@@ -18,27 +20,25 @@ body {
 
 h1 {
     font-family: var(--heading-font);
+    font-size: 40px;
+    font-weight: bold;
 }
 
 h2 {
     font-family: var(--sub-heading-font);
     font-weight: normal;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: var(--heading-font);
+    font-size: 15px;
 }
 
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
     padding: 70px 40px;
-}
-
-h1 {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-h2 {
-   font-size: 20px;
-   font-weight: normal;
 }
 
 #buy-now-button {
@@ -58,4 +58,23 @@ transition-timing-function: ease-in-out;
 #buy-now-button:hover {
     background-color: var(--button-hover-color);
     color: white;
+  }
+
+  .btn-learn-more {
+    font-weight: bold;
+    border-radius: 350rem;
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 25px;
+color: blanchedalmond;
+background-color: var(--button-learn-more-color);
+border: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+transition-duration: .2s;
+transition-timing-function: ease-in-out;
+  }
+
+  .btn-learn-more:hover {
+    background-color: var(--button-learn-more-hover-color);
+    color: rgb(71, 52, 52);
   }
