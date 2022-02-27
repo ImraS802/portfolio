@@ -65,6 +65,7 @@ transition-timing-function: ease-in-out;
     border-radius: 350rem;
     padding: 10px 20px;
     text-align: center;
+    text-decoration: none;
     line-height: 25px;
 color: blanchedalmond;
 background-color: var(--button-learn-more-color);
@@ -77,4 +78,47 @@ transition-timing-function: ease-in-out;
   .btn-learn-more:hover {
     background-color: var(--button-learn-more-hover-color);
     color: rgb(71, 52, 52);
+  }
+
+  img {
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+  }
+
+  #cappuccino-image {
+    width: 300px;
+    height: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  #americano-image {
+    width: 300px;
+    height: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  #latte-machiatto-image {
+    width: 300px;
+    height: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  #crema-image {
+    width: 300px;
+    height: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  .description-headline {
+      margin: 40px 10px 70px 10px;
+      font-family: var(--sub-heading-font);
+      font-size: 18px;
+      text-align: center;
+  }
+
+  @media (max-width: 900px) {
+      .container {
+          text-align: center;
+      }
   }
