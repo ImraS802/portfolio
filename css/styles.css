@@ -52,7 +52,7 @@ h3 {
   font-size: 15px;
 }
 
-.hero-image {
+.hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 70px 40px;
