@@ -14,8 +14,13 @@
   --button-learn-more-hover-color: rgba(255, 255, 255, 0.836);
 }
 
-.index-page {
+.index-page, 
+.drinks-page {
   background-color: var(--primary-color);
+}
+
+.drinks-page {
+margin: 100px;
 }
 
 .about-page {
@@ -108,13 +113,13 @@ img {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-#americano-image {
+#coffee-americano-image {
   width: 300px;
   height: 200px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-#latte-machiatto-image {
+#latte-macchiato-image {
   width: 300px;
   height: 200px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -124,6 +129,11 @@ img {
   width: 300px;
   height: 200px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.drink-description {
+  font-family: var(--sub-heading-font);
+  font-size: 17px;
 }
 
 #youtube {
@@ -169,6 +179,28 @@ font-size: 80px;
 footer {
 margin-top: 90px;  
 }
+
+.drink-varieties,
+#crema-image {
+margin-bottom: 50px;
+}
+
+.drink-varieties,
+#cappuccino-image {
+margin-bottom: 50px;
+}
+
+.drink-varieties,
+#latte-macchiato-image {
+margin-bottom: 50px;
+}
+
+.drink-varieties,
+#coffee-americano-image {
+margin-bottom: 50px;
+}
+
+
 
 .description-headline {
     margin: 40px 10px 70px 10px;
