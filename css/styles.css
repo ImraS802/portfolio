@@ -107,6 +107,43 @@ transition-timing-function: ease-in-out;
   color: rgb(71, 52, 52);
 }
 
+.coffee-logo {
+  max-height: 100px;
+}
+
+.coffee-small {
+  max-height: 50px;
+  margin-top: 30px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  font-family: var(--heading-font);
+  text-decoration: none;
+  color: var(--button-learn-more-color);
+  transition: all 100ms ease-in-out;
+  font-size: 14px;
+}
+
+nav a:hover,
+nav li.active a {
+color: var(--button-color);
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav ul {
+  padding: 0px;
+  margin-top: 40px;
+}
+
 img {
     border-radius: 10px;
 }
@@ -116,6 +153,7 @@ img {
   height: 200px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 
 #coffee-americano-image {
   width: 300px;
