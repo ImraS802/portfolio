@@ -242,7 +242,26 @@ margin-bottom: 50px;
 margin-bottom: 50px;
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: var(--button-learn-more-color);
+  font-size: 24px;
+}
 
+footer .email-link:hover {
+  color: var(--button-color);
+}
+
+footer .social-links a {
+  margin: 0 30px;
+  color: var(--button-learn-more-color);
+  font-size: 40px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+}
 
 .description-headline {
     margin: 40px 10px 70px 10px;
