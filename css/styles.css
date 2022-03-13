@@ -242,6 +242,10 @@ margin-bottom: 50px;
 margin-bottom: 50px;
 }
 
+.footer-text {
+  text-decoration: none;
+}
+
 footer .email-link {
   text-decoration: none;
   color: var(--button-learn-more-color);
