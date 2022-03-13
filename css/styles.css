@@ -63,6 +63,10 @@ h3 {
   padding: 70px 40px;
 }
 
+#initial-text {
+  margin: 0px 250px 0px;
+}
+
 #buy-now-button {
   font-weight: bold;
   border-radius: 350rem;
