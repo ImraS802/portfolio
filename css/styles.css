@@ -23,7 +23,7 @@
 margin: 100px;
 }
 
-.about-page {
+.contact-page {
   background-color: var(--secondary-color);
 }
 
@@ -168,15 +168,15 @@ filter: grayscale(100%);
   border-radius: 20px;
 }
 
-.about-section {
+.contact-section {
   text-align: center;
 }
 
-.about-section, h1 {
+.contact-section, h1 {
 font-size: 80px;
 }
 
-.about-section, p {
+.contact-section, p {
   font-size: 30px;
   }
 
