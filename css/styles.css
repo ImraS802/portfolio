@@ -56,7 +56,7 @@ h3 {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 70px 40px;
+  padding: 70px 0 70px;
 }
 
 #initial-text {
